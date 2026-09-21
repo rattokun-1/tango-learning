@@ -1,0 +1,8 @@
+Browser validation findings (2026-09-21 UTC):
+- Home screen rendered correctly at the hosted preview with an uncluttered mobile-width layout, floating glass bottom navigation, clear level/XP status, mission checklist, and prominent next-lesson action.
+- Learning screen rendered with the word centered, right-side vertical action rail preserved, disabled answer actions before translation reveal, and translation revealed after a stage tap.
+- The first three consecutive word cards advanced correctly using the answer control: environment -> achieve -> evidence -> Quick Test (develop).
+- Quick Test accepted a multiple-choice selection and continued to the next normal card (available) after feedback.
+- No runtime exception was surfaced during browser interaction; production build and JavaScript syntax check passed before browser testing.
+The exit control returned from active learning to the home dashboard without error. The weekly ranking rendered twelve local demo users and reported the learner’s position as “9th · 維持圏,” while also displaying the three explicit promotion, maintenance, and relegation bands.
+The collection screen showed a usable ITEM CAPSULE with the current 160-coin balance. Spending 100 coin opened a short result modal and awarded an HP recovery stock; the result had a visible close action.
